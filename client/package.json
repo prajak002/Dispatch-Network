@@ -4,8 +4,8 @@
   "description": "A lightweight admin dashboard with JWT authentication and role-based access control.",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -23,6 +23,7 @@
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "react-scripts": "4.0.3"
   },
   "eslintConfig": {
