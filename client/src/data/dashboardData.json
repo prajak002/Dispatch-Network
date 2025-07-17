@@ -1,0 +1,144 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "item": "Premium Laptop",
+      "customer": "John Doe",
+      "amount": "$1,299",
+      "status": "Delivered",
+      "date": "2025-01-15",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "item": "Wireless Headphones",
+      "customer": "Jane Smith",
+      "amount": "$199",
+      "status": "In Progress",
+      "date": "2025-01-16",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "item": "Smart Watch",
+      "customer": "Mike Johnson",
+      "amount": "$399",
+      "status": "Pending",
+      "date": "2025-01-17",
+      "priority": "low"
+    },
+    {
+      "id": 4,
+      "item": "Gaming Chair",
+      "customer": "Sarah Wilson",
+      "amount": "$599",
+      "status": "Delivered",
+      "date": "2025-01-14",
+      "priority": "medium"
+    },
+    {
+      "id": 5,
+      "item": "4K Monitor",
+      "customer": "David Brown",
+      "amount": "$899",
+      "status": "In Progress",
+      "date": "2025-01-18",
+      "priority": "high"
+    }
+  ],
+  "riders": [
+    {
+      "id": 1,
+      "name": "Alex Rodriguez",
+      "status": "Active",
+      "orders": 45,
+      "rating": 4.8,
+      "location": "Downtown",
+      "vehicle": "Motorcycle"
+    },
+    {
+      "id": 2,
+      "name": "Maria Garcia",
+      "status": "Active",
+      "orders": 38,
+      "rating": 4.9,
+      "location": "Uptown",
+      "vehicle": "Bicycle"
+    },
+    {
+      "id": 3,
+      "name": "James Wilson",
+      "status": "Inactive",
+      "orders": 22,
+      "rating": 4.5,
+      "location": "Suburbs",
+      "vehicle": "Car"
+    },
+    {
+      "id": 4,
+      "name": "Lisa Chen",
+      "status": "Active",
+      "orders": 52,
+      "rating": 4.7,
+      "location": "City Center",
+      "vehicle": "Scooter"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@site.com",
+      "role": "admin",
+      "lastLogin": "2025-01-17 09:30",
+      "status": "Active",
+      "permissions": ["read", "write", "delete"]
+    },
+    {
+      "id": 2,
+      "name": "Editor User",
+      "email": "editor@site.com",
+      "role": "editor",
+      "lastLogin": "2025-01-17 08:15",
+      "status": "Active",
+      "permissions": ["read", "write"]
+    },
+    {
+      "id": 3,
+      "name": "Viewer User",
+      "email": "viewer@site.com",
+      "role": "viewer",
+      "lastLogin": "2025-01-16 16:45",
+      "status": "Active",
+      "permissions": ["read"]
+    },
+    {
+      "id": 4,
+      "name": "John Manager",
+      "email": "john@site.com",
+      "role": "editor",
+      "lastLogin": "2025-01-15 14:20",
+      "status": "Active",
+      "permissions": ["read", "write"]
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "notifications": true,
+    "autoLogout": 600,
+    "apiRateLimit": 1000,
+    "maintenanceMode": false,
+    "language": "en",
+    "timezone": "UTC",
+    "emailNotifications": true,
+    "smsNotifications": false
+  },
+  "analytics": {
+    "totalOrders": 156,
+    "totalRevenue": "$45,678",
+    "activeRiders": 12,
+    "completionRate": 94.2,
+    "avgDeliveryTime": "28 mins",
+    "customerSatisfaction": 4.6
+  }
+}
